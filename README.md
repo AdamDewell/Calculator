@@ -1,3 +1,3 @@
 Calc lab
 How run
-Week 3
+Run: python3 calculator.py
