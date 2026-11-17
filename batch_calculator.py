@@ -1,4 +1,4 @@
-"""Cooomplete this function for the SCCM4910 coursework.
+"""Coooomplete this function for the SCCM4910 coursework.
 
 Place this file beside your existing lab calculator.py. The runner and
 file handling are supplied; write your own processing logic and tests.
