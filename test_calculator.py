@@ -19,3 +19,6 @@ def test_mutiply_zero():
     result = multiply(a, b)
     #Assert
     assert result == 0
+
+def tet_circleArea():
+    assert CircleArea(-4) == "Error"
