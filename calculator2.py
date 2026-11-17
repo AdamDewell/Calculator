@@ -7,7 +7,7 @@ def subtract(a, b):
         return a - b
 
 def multiply(a, b):
-        return a + b
+        return a * b
 
 def divide(a, b):
         return a / b
@@ -27,11 +27,11 @@ def main():
                 else:
                         print(f"Unkown operator: {op}")
 
-def CircleArea(r):
-        if r>= 0:
-               return 3.14 * r * r
-        else:
-               return "Error"
+#def CircleArea(r):
+#        if r>= 0:
+#               return 3.14 * r * r
+#        else:
+#               return "Error"
 
 if __name__ == "__main__":
         main()
