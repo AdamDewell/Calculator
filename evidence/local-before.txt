@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /opt/python-venv/sccm-4910/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/dewella/h-drive/calculator
+collecting ... collected 6 items
+
+test_batch_calculator.py::test_process_calculation FAILED                [ 16%]
+test_calculator.py::test_add PASSED                                      [ 33%]
+test_calculator.py::test_divide PASSED                                   [ 50%]
+test_calculator.py::test_subtract PASSED                                 [ 66%]
+test_calculator.py::test_multiply PASSED                                 [ 83%]
+test_calculator.py::test_mutiply_zero PASSED                             [100%]
+
+=================================== FAILURES ===================================
+___________________________ test_process_calculation ___________________________
+
+>   ???
+
+/home/dewella/h-drive/calculator2/test_batch_calculator.py:4: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+operation = 'add', a_text = '7', b_text = '5'
+
+    def process_calculation(operation, a_text, b_text):
+        """Return (status, result, error_code) for one calculation.
+    
+        Inputs are strings. Trim whitespace and use the four imported lab functions.
+        Success: ("OK", numeric_result, "").
+        The error_code is empty on success because there is no error to report.
+        Error: ("ERROR", "", error_code).
+    
+        Check errors in order: UNKNOWN_OPERATION, INVALID_NUMBER, DIVISION_BY_ZERO.
+        See the brief for the full contract. You may add small helper functions.
+        """
+>       raise NotImplementedError("Complete process_calculation for the coursework")
+E       NotImplementedError: Complete process_calculation for the coursework
+
+batch_calculator.py:21: NotImplementedError
+=========================== short test summary info ============================
+FAILED test_batch_calculator.py::test_process_calculation - NotImplementedErr...
+========================= 1 failed, 5 passed in 0.07s ==========================
