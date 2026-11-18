@@ -1,4 +1,4 @@
-from calculator2 import add, subtract, multiply, divide # CircleArea
+from calculator import add, subtract, multiply, divide # CircleArea
 
 def test_add():
     assert add(2, 3) == 5
