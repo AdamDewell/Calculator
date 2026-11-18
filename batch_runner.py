@@ -1,4 +1,4 @@
-"""Suuuupplied CSV runner. You may use this file unchanged and acknowledge it.
+"""Suuuuupplied CSV runner. You may use this file unchanged and acknowledge it.
 
 Example: python3 batch_runner.py data/normal.csv results.csv
 Complete process_calculation in batch_calculator.py before running a batch.
