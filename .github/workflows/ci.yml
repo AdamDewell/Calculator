@@ -2,9 +2,9 @@ name: Calculator CI
 
 on:
   push:
-    branches: main
+    branches: [main, coursework]
   pull_request:
-    branches: main
+    branches: [main, coursework]
 
 permissions:
   contents: read
